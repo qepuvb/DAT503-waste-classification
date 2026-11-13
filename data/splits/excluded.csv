@@ -1,0 +1,4 @@
+path,label,would_have_been,md5,reason
+dataset-resized/metal/metal91.jpg,metal,train,70df08c3ce6d55e25df4edbbe45e5fe3,"bytegleich mit glass/glass115.jpg, Motiv ist Glas"
+dataset-resized/plastic/plastic152.jpg,plastic,train,a2236bc6f8eae80bf7d6c5f259df8760,"bytegleich mit glass/glass176.jpg, Motiv ist Glas"
+dataset-resized/plastic/plastic332.jpg,plastic,val,e52ec9a8f6089b5780728b148c9f795e,"bytegleich mit glass/glass389.jpg, Motiv ist Glas"
