@@ -10,6 +10,7 @@ DAT503, ESA 1. Jede Person trägt die eigenen Tätigkeiten hier ein.
 | 13.11.2026 | Jens Mertens | Split festgelegt | `data/splits/split.csv`, Seed 42, stratifiziert 70 % Train, 15 % Val, Rest Test. Die drei bytegleichen Glasflaschen stehen in `data/splits/excluded.csv` und nicht im Split. | 2524 Bilder: Train 1764, Val 376, Test 384. Dieselbe Datei liegt nicht mehr im Training und im Test. |
 | 11.11.2026 | Lucas Frank | Rollen verteilt | Abstimmung im Gruppenchat. | Requirements Engineering: Stephanie Lepuschitz; Projektmanagement: Lucas Frank; Daten und Datenqualität: Jens Mertens; Modell und Training: Felix Zopf; Evaluation, Edge und Bericht: Günther Reinwald. |
 | 14.11.2026 | Lucas Frank | Projektplan erstellt | `projektmanagement.md`: Meilensteine mit Gantt, Ressourcenzuweisung, Kommunikation, Risiken, Monitoring. | Zeitplan ist knapp, Modell und Evaluation müssen am Sonntag fertig werden. |
+| 14.11.2026 | Felix Zopf | Modell auswählen und trainieren | `training + evaluierung.py`: Skript für das Training und die Evaluierung erstellt | Trainiertes Modell und automatische Evaluierung hochgeladen. |
 
 ## Nicht gelöst
 
