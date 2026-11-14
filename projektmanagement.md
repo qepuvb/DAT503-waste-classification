@@ -21,7 +21,7 @@ gantt
     Rollen und Projektplan          :done, 2026-11-14, 1d
     Anforderungen                   :2026-11-14, 1d
     section Umsetzung
-    Modell und Training             :2026-11-14, 2d
+    Modell und Training             :done, 2026-11-14, 1d
     Evaluation und Bericht          :2026-11-15, 1d
     section Abschluss
     Review und Abgabe               :milestone, 2026-11-15, 0d
