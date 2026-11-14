@@ -6,7 +6,7 @@
 | Datensatz, Split und Augmentation | Daten und Datenqualität | Fr 13.11. | erledigt |
 | Thema, Rollen und Projektplan | Projektmanagement | Sa 14.11. | erledigt |
 | Anforderungen | Requirements Engineering | Sa 14.11. | offen |
-| Modell trainiert | Modell und Training | So 15.11. | offen |
+| Modell trainiert | Modell und Training | Sa 14.11. | erledigt |
 | Evaluation und Bericht | Evaluation, Edge und Bericht | So 15.11., Abend | offen |
 | Review und Abgabe | Projektmanagement | So 15.11., 22:00 | offen |
 
