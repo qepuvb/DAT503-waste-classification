@@ -1,3 +1,10 @@
+# Projektmanagement
+
+DAT503, ESA 1. Abgabe: Sonntag, 15.11.2026, 23:59
+
+Thema: Bildklassifikation von Abfall in sechs Klassen (TrashNet) mit Transfer Learning. Geplant war ResNet18, umgesetzt wurde ResNet50 (siehe `src/training + evaluierung.py`).
+
+**Stand 15.11.2026: Alle Meilensteine sind erledigt.**
 
 ## 1. Projektplan
 
@@ -7,8 +14,8 @@
 | Thema, Rollen und Projektplan | Projektmanagement | Sa 14.11. | erledigt |
 | Anforderungen | Requirements Engineering | Sa 14.11. | offen |
 | Modell trainiert | Modell und Training | Sa 14.11. | erledigt |
-| Evaluation und Bericht | Evaluation, Edge und Bericht | So 15.11., Abend | offen |
-| Review und Abgabe | Projektmanagement | So 15.11., 22:00 | offen |
+| Evaluation und Bericht | Evaluation, Edge und Bericht | So 15.11. | erledigt |
+| Review und Abgabe | Projektmanagement | So 15.11., 22:00 | erledigt |
 
 ```mermaid
 gantt
@@ -19,12 +26,12 @@ gantt
     Datensatz, Split, Augmentation  :done, 2026-11-11, 3d
     section Planung
     Rollen und Projektplan          :done, 2026-11-14, 1d
-    Anforderungen                   :2026-11-14, 1d
+    Anforderungen                   :done, 2026-11-14, 1d
     section Umsetzung
     Modell und Training             :done, 2026-11-14, 1d
-    Evaluation und Bericht          :2026-11-15, 1d
+    Evaluation und Bericht          :done, 2026-11-15, 1d
     section Abschluss
-    Review und Abgabe               :milestone, 2026-11-15, 0d
+    Review und Abgabe               :done, milestone, 2026-11-15, 0d
 ```
 
 ## 2. Ressourcenzuweisung
@@ -64,4 +71,4 @@ Jede Rolle trägt ihre Tätigkeiten, Probleme und Verzögerungen in [`protokoll.
 | Zeitpunkt | Erledigt | In Arbeit | Probleme / Verzögerungen |
 |---|---|---|---|
 | Sa 14.11. | Datensatz, Split, Augmentation; Rollen verteilt; Projektplan | Anforderungen, Modell | knapper Zeitplan |
-| So 15.11. | | | |
+| So 15.11. | Anforderungen; Modell (ResNet50) trainiert; Evaluation mit Bericht (Accuracy 85,4 %, Macro-F1 82,6 %); Review und Abgabe | – | Modell weicht vom geplanten ResNet18 ab; Edge-Hardware nicht verfügbar; Klasse „trash“ schwach erkannt |
