@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Hinweis: Bei der Erstellung des Python-Codes für dieses Skript wurde ChatGPT (Version November 2026) zur Unterstützung verwendet.
 # Fetch data
 import os
 import hashlib
