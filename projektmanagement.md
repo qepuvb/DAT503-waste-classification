@@ -64,6 +64,4 @@ Jede Rolle trägt ihre Tätigkeiten, Probleme und Verzögerungen in [`protokoll.
 | Zeitpunkt | Erledigt | In Arbeit | Probleme / Verzögerungen |
 |---|---|---|---|
 | Sa 14.11. | Datensatz, Split, Augmentation; Rollen verteilt; Projektplan | Anforderungen, Modell | knapper Zeitplan |
-| Sa 14.11., Abend | | | |
-| So 15.11., Mittag | | | |
-| So 15.11., Abend | | | |
+| So 15.11. | | | |
