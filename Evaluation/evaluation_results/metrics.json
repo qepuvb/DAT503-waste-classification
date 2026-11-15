@@ -1,0 +1,92 @@
+{
+  "accuracy": 0.8541666666666666,
+  "macro_precision": 0.8572565561326911,
+  "macro_recall": 0.813444463853242,
+  "macro_f1": 0.8262762405065868,
+  "weighted_f1": 0.8523076942526204,
+  "confidence_threshold_user_decision": 0.8,
+  "rejection_rate": 0.4453125,
+  "accepted_accuracy": 0.9859154929577465,
+  "accepted": 213,
+  "rejected": 171,
+  "accuracy_bootstrap_ci_95": [
+    0.8177083333333334,
+    0.8880208333333334
+  ],
+  "per_class": [
+    {
+      "Klasse": "cardboard",
+      "Bilder": 61,
+      "Precision": 0.9782608695652174,
+      "Recall": 0.7377049180327869,
+      "F1": 0.8411214953271028,
+      "Ablehnung": 0.4098360655737705,
+      "Akzeptierte": 36,
+      "Accuracy akzeptiert": 0.9444444444444444
+    },
+    {
+      "Klasse": "glass",
+      "Bilder": 76,
+      "Precision": 0.868421052631579,
+      "Recall": 0.868421052631579,
+      "F1": 0.868421052631579,
+      "Ablehnung": 0.5263157894736842,
+      "Akzeptierte": 36,
+      "Accuracy akzeptiert": 1.0
+    },
+    {
+      "Klasse": "metal",
+      "Bilder": 62,
+      "Precision": 0.7972972972972973,
+      "Recall": 0.9516129032258065,
+      "F1": 0.8676470588235294,
+      "Ablehnung": 0.5,
+      "Akzeptierte": 31,
+      "Accuracy akzeptiert": 1.0
+    },
+    {
+      "Klasse": "paper",
+      "Bilder": 90,
+      "Precision": 0.7818181818181819,
+      "Recall": 0.9555555555555556,
+      "F1": 0.86,
+      "Ablehnung": 0.23333333333333334,
+      "Akzeptierte": 69,
+      "Accuracy akzeptiert": 1.0
+    },
+    {
+      "Klasse": "plastic",
+      "Bilder": 73,
+      "Precision": 0.967741935483871,
+      "Recall": 0.821917808219178,
+      "F1": 0.8888888888888888,
+      "Ablehnung": 0.5205479452054794,
+      "Akzeptierte": 35,
+      "Accuracy akzeptiert": 1.0
+    },
+    {
+      "Klasse": "trash",
+      "Bilder": 22,
+      "Precision": 0.75,
+      "Recall": 0.5454545454545454,
+      "F1": 0.631578947368421,
+      "Ablehnung": 0.7272727272727273,
+      "Akzeptierte": 6,
+      "Accuracy akzeptiert": 0.8333333333333334
+    }
+  ],
+  "colab_hardware": {
+    "device_description": "Google Colab – CPU",
+    "device_type": "cpu",
+    "latency_mean_ms": 218.2119390250591,
+    "latency_median_ms": 218.5378354997738,
+    "latency_p95_ms": 238.38327354969806,
+    "latency_max_ms": 252.1898710001551,
+    "latency_count": 40,
+    "single_image_fps": 4.582700673793846,
+    "batch_fps": 3.146138179698368,
+    "checkpoint_mib": 90.03115177154541,
+    "parameter_count": 23520326,
+    "batch_inference_seconds": 122.05439750799997
+  }
+}
