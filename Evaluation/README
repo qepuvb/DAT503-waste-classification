@@ -1,10 +1,11 @@
 full evaluation report is stored at /evaluation_results/evaluation_report.md
+full protokoll of Günther Reinwald is stored /protokoll_Reinwald
 
 file test_results.txt was created by Felix Zopf
+
 rest of the files where created by Günther Reinwald
   code was created with ChatGPT, Modell GPT-6, OpenAI; 2026-11-15
     Die KI wurde für Codeanalyse, Erstellung und Überarbeitung des Evaluationsskripts, Auswahl und Implementierung von Evaluationsmetriken sowie die Erstellung des automatisierten Markdown-Berichts eingesetzt.
   runtime: Google Compute Engine-Back-Ends; 2026-11-15
     Laufzeittyp: Python 3; Laufzeitversion: Neuste (2026.10); Python 3.13.15
     Hardwarebeschleuniger: CPU
- full protokoll of Günther Reinwald is stored /protokoll_Reinwald
