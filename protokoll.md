@@ -11,12 +11,15 @@ DAT503, ESA 1. Jede Person trägt die eigenen Tätigkeiten hier ein.
 | 11.11.2026 | Lucas Frank | Rollen verteilt | Abstimmung im Gruppenchat. | Requirements Engineering: Stephanie Lepuschitz; Projektmanagement: Lucas Frank; Daten und Datenqualität: Jens Mertens; Modell und Training: Felix Zopf; Evaluation, Edge und Bericht: Günther Reinwald. |
 | 14.11.2026 | Lucas Frank | Projektplan erstellt | `projektmanagement.md`: Meilensteine mit Gantt, Ressourcenzuweisung, Kommunikation, Risiken, Monitoring. | Zeitplan ist knapp, Modell und Evaluation müssen am Sonntag fertig werden. |
 | 14.11.2026 | Felix Zopf | Modell auswählen und trainieren | `training + evaluierung.py`: Skript für das Training und die Evaluierung erstellt | Trainiertes Modell und automatische Evaluierung hochgeladen. |
+| 15.11.2026 | Günther Reinwald | Modell evaluieren | 1. Vorhandenen Trainingscode `training + evaluierung.py` analysiert und erforderliche Bestandteile identifiziert.<br>2. Download, Testsplit-Auswahl, Dataset-Klasse und Vorverarbeitung übernommen.<br>3. ResNet50-Architektur rekonstruiert und trainierten `.pth`-Checkpoint geladen.<br>4. Eigenständiges `evaluate.py` für Google Colab entwickelt.<br>5. Geeignete Klassifikationsmetriken anhand der Theorie und Akzeptanzkriterien ausgewählt.<br>6. Konfidenzschwelle von 80 % und Auswertung unsicherer Entscheidungen festgelegt.<br>7. Latenz-, FPS- und Modellgrößenmessung implementiert.<br>8. Confusion Matrix, weitere Diagramme, Fehlklassifikationen und Grad-CAM ergänzt.<br>9. Vollständige Evaluation ausgeführt und Markdown-Bericht mit PNG-Abbildungen erzeugt.<br>10. Ergebnisse für GitHub aufbereitet und KI-Nutzung dokumentiert.<br>11. Learnings von Günther dokumentiert in `evaluation/short_protokoll_Reinwald.md`<br>12. Protokoll `protokoll.md` aktualisiert, `Nicht gelöst` aktualisiert| Trainiertes Modell evaluiert und vollständigen Evaluationsbericht mit Abbildungen auf GitHub bereitgestellt. |
 
 ## Nicht gelöst
 
 | Punkt | Grund |
 |---|---|
 | Keine Durchsicht aller Bilder auf falsch einsortierten Inhalt | 2527 Dateien. Heute sind nur Quelle und Augmentation festgehalten, nicht jedes Bild einzeln angesehen. |
+| Edge-HW Evaluierung (Reinwald) | Es steht keine dezidierte HW zur Verfügung. Es wurde keine HW simuliert. Die Evaluierung hat Messwerte für Edge-HW festgelegt, diese für die Runtime dokumentiert. |
+| Confidence Threshold (Reinwald) | Es wurde ein Confidence Threshold von 80% festgelegt. Der Wert wurde für die Evaluierung entschieden. Es ist zu Prüfen, ob der Wert für die Anwendung sinnvoll ist |
 
 ## Weitere Einträge
 
